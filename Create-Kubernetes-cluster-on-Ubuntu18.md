@@ -78,6 +78,7 @@ kubectl taint nodes --all node-role.kubernetes.io/master-
 
 ### Join nodes
 ***(on worker nodes)***
+
 joining nodes using token from kubeadm init
 ```
 kubeadm join --token <token> <control-plane-host>:<control-plane-port> --discovery-token-ca-cert-hash sha256:<hash>
@@ -201,6 +202,7 @@ kubectl drain <node name> --delete-local-data --force --ignore-daemonsets
 ```
 
 reset nodes
+
 ***(on nodes to remove)***
 ```
 sudo kubeadm reset
