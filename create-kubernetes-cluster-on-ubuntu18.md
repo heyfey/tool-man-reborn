@@ -1,6 +1,6 @@
 # Create Kubernetes cluster on Ubuntu 18.04
 
-[![hackmd-github-sync-badge](https://hackmd.io/6EVpyFDlTDuoAogLTFkkbQ/badge)](https://hackmd.io/6EVpyFDlTDuoAogLTFkkbQ)
+[![hackmd-github-sync-badge](https://hackmd.io/QfFi_RYGQsWw54iF0KcLag/badge)](https://hackmd.io/QfFi_RYGQsWw54iF0KcLag)
 
 
 This guide works for *ubuntu 18.04, kubernetes 1.20, docker 0.19.3* on *Aug. 2021*
