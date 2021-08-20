@@ -1,8 +1,5 @@
 # Create Kubernetes cluster on Ubuntu 18.04
 
-[![hackmd-github-sync-badge](https://hackmd.io/QfFi_RYGQsWw54iF0KcLag/badge)](https://hackmd.io/QfFi_RYGQsWw54iF0KcLag)
-
-
 This guide works for *ubuntu 18.04, kubernetes 1.20, docker 0.19.3* on *Aug. 2021*
 
 Table of contents:
@@ -13,9 +10,16 @@ Table of contents:
 
 ## Pre-requirements
 
-1. install docker 
-2. install nvidia-docker 2.0 to use GPU
-3. (and other perhaps) https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
+1. prepare your machines (with GPUs)
+    
+    (or [create VMs](https://github.com/heyfey/tool-man-reborn/blob/main/create-VMs-for-testing.md))
+    
+2. install docker 
+3. install nvidia-docker 2.0 to use GPU
+
+    ([installation of docker and nvidia-docker 2.0](https://github.com/heyfey/tool-man-reborn/blob/main/install-docker-and-nvidia-docker2-on-ubuntu18.md))
+
+4. (and other perhaps) https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
 
 ## Creating a cluster
 
