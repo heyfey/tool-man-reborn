@@ -1,5 +1,8 @@
 # Create Kubernetes cluster on Ubuntu 18.04
 
+[![hackmd-github-sync-badge](https://hackmd.io/6EVpyFDlTDuoAogLTFkkbQ/badge)](https://hackmd.io/6EVpyFDlTDuoAogLTFkkbQ)
+
+
 This guide works for *ubuntu 18.04, kubernetes 1.20, docker 0.19.3* on *Aug. 2021*
 
 Table of contents:
@@ -17,6 +20,7 @@ Table of contents:
 ## Creating a cluster
 
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/
+
 https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/
 
 ### Disable swap
@@ -93,6 +97,7 @@ kubectl get nodes -o wide
 ## Schedule GPU (NVIDIA)
 
 https://kubernetes.io/docs/tasks/manage-gpus/scheduling-gpus/
+
 https://github.com/NVIDIA/k8s-device-plugin
 
 ### For nodes with GPU, change default runtime to `nvidia`
