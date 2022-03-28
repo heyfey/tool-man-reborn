@@ -227,3 +227,13 @@ kubectl delete node <node name>
 ***(on master node)***
 
 same as reset nodes above
+
+## Get full access of other's k8s cluster (NOT RECOMMENDED WAY)
+
+1. ssh to master node
+2. copy kubeconfig 
+```
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+```
